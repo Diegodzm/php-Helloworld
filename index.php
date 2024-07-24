@@ -2,14 +2,14 @@
   $name="diego"
  
 ?>
-
+define("LOGO")
 <h1>
-    <?= "primer php";?>
+    <?= $name;?>
 
 </h1>
 <style>
     :root{
-        color-scheme: light dark;
+        color-scheme:  dark;
     }
     body {
         display:grid;
